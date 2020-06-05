@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>502</width>
-    <height>355</height>
+    <height>377</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -21,6 +21,19 @@
      <width>341</width>
      <height>231</height>
     </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>350</y>
+     <width>211</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Designed by LZY Version1.0</string>
    </property>
   </widget>
   <widget class="QWidget" name="">
@@ -80,10 +93,10 @@
   <widget class="QWidget" name="">
    <property name="geometry">
     <rect>
-     <x>370</x>
-     <y>20</y>
+     <x>371</x>
+     <y>103</y>
      <width>115</width>
-     <height>311</height>
+     <height>251</height>
     </rect>
    </property>
    <layout class="QGridLayout" name="gridLayout_2">
@@ -102,16 +115,16 @@
      </widget>
     </item>
     <item row="2" column="0">
-     <widget class="QPushButton" name="pushButtonUpdate">
+     <widget class="QPushButton" name="pushButtonSearch">
       <property name="text">
-       <string>修改</string>
+       <string>查询</string>
       </property>
      </widget>
     </item>
     <item row="3" column="0">
-     <widget class="QPushButton" name="pushButtonSearch">
+     <widget class="QPushButton" name="pushButtonUpdate">
       <property name="text">
-       <string>查询</string>
+       <string>修改</string>
       </property>
      </widget>
     </item>

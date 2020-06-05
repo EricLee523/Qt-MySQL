@@ -35,6 +35,7 @@ Widget::Widget(QWidget *parent) :
     QString str = "create table student(num int, name varchar(32), score double);";
     QSqlQuery query;
     query.exec(str);
+    query.exec("SET NAMES 'Latin1'");//支持中文
 
 }
 
